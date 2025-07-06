@@ -251,16 +251,42 @@ const colors = [
 
 
   const categories = [
-    {name: 'B2B SaaS Marketing'},
-    {name: 'Project & Team Management'},
     {name: 'Content Strategy & Writing'},
+    {name: 'SEO (On-Page & Off-Page)'},
     {name: 'Social Media Management'},
-    {name: 'Graphic Design (Canva, Figma)'},
-    {name: 'SEO & Web Content'},
     {name: 'Influencer Marketing'},
-    {name: 'Brand Building'},
-    {name: 'Tools & Platforms'},
+    {name: 'PPC Campaigns'},
+    {name: 'Copywriting & Editing'},
+    {name: 'Cross-functional Collaboration'},
+    {name: 'Analytics & Content'},
+    {name: 'Optimization'},
+    {name: 'Creative Writing'},
+    {name: 'Ghostwriting'},
+    {name: 'Health content'},
+    {name: 'Lifestyle Writing'},
+    {name: 'Magazines'},
+    {name: 'Microsoft Office'},
+    {name: 'Online'},
+    {name: 'Video Marketing'},
+    {name: 'Research Skills'},
+  ];
+
+  const tools = [
+    {name: 'Google Analytics'},
+    {name: 'SEMrush '},
+    {name: 'Ahrefs'},
+    {name: 'Meta Ads Manager'},
+    {name: 'Google Ads'},
+    {name: 'Canva '},
+    {name: 'Figma'},
+    {name: 'WordPress '},
+    {name: 'HubSpot'},
+    {name: 'Notion'},
+    {name: 'LinkedIn '},
+    {name: 'Instagram'},
+    {name: 'Quora '},
+    {name: 'Reddit'},
   ];
 
 
-export { categories, skills };
+export { categories, tools };

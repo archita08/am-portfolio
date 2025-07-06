@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import CategoryButton from './Skills/CategoryButton';
 import SkillBar from './Skills/SkillBar';
 
-const Skills = ({ skills, categories }) => {
+const Skills = ({ skills, tools, categories }) => {
   const initialButtons = Object.fromEntries(
     [['All', false]].concat(categories.map(({ name }) => [name, false])),
   );
@@ -64,13 +64,45 @@ const Skills = ({ skills, categories }) => {
     <div className="skills">
       <div className="link-to" id="skills" />
       <div className="title">
-        <h3>Skills</h3>
-        <p>
-          Note: I think these sections are silly, but everyone seems to have
-          one. Here is a *mostly* honest overview of my skills.
-        </p>
+        <h3>Skills & Tools</h3>
+        <div className='skills-tools-list-div'>
+          <div>
+            <ul>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Content Strategy &amp; Writing</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>SEO (On-Page &amp; Off-Page)</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Social Media Management</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Influencer Marketing</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>PPC Campaigns</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Copywriting &amp; Editing</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Cross-functional Collaboration</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Analytics &amp; Content Optimization</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Creative Writing</span></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Ghostwriting</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Health content</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Lifestyle Writing</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Magazines</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Microsoft Office</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Online</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Video Marketing</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Research Skills</span></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Google Analytics, SEMrush, Ahrefs,</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Meta Ads Manager, Google Ads, Google Search Console</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>Chisel, Canva, Figma</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>WordPress, HubSpot, Notion</span></li>
+              <li style={{ textAlign: 'left', fontSize: '14px' }}><span>LinkedIn, Instagram, Quora, Reddit</span></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div className="skill-button-container">{getButtons()}</div>
+      {/* <div className="skill-button-container">{getButtons()}</div> */}
       {/* <div className="skill-row-container">{getRows()}</div> */}
     </div>
   );

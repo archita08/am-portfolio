@@ -79,7 +79,7 @@ const EmailLink = ({ loopMessage }) => {
   );
 
   return (
-    <div
+    <span
       className="inline-container"
       style={validateText(message) ? {} : { color: 'red' }}
       // onMouseEnter={() => setIsActive(false)}
@@ -88,7 +88,7 @@ const EmailLink = ({ loopMessage }) => {
       <a href={`mailto:archi.m8@gmail.com`}>
         <span>archi.m8@gmail.com</span>
       </a>
-    </div>
+    </span>
   );
 };
 

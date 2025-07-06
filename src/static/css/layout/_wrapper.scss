@@ -29,7 +29,7 @@
   }
 
   @include breakpoint(small) {
-    padding: _size(section-spacing-small);
+    padding: 1.5em 2.5em;
   }
 
   body.single & {

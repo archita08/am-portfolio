@@ -12,13 +12,16 @@ import References from '../components/Resume/References';
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import work from '../data/resume/work';
-import { skills, categories } from '../data/resume/skills';
+import { tools, categories } from '../data/resume/skills';
+import resume_1 from './images/resume_1.svg';
+import resume_2 from './images/resume_2.svg';
+import resume_3 from './images/resume_3.svg';
 
 // NOTE: sections are displayed in order defined.
 const sections = {
-  Education: () => <Education data={degrees} />,
+  // Education: () => <Education data={degrees} />,
   Experience: () => <Experience data={work} />,
-  Skills: () => <Skills skills={skills} categories={categories} />,
+  Skills: () => <Skills tools={tools} categories={categories} />,
   // Courses: () => <Courses data={courses} />,
   // References: () => <References />,
 };
@@ -31,18 +34,17 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2>
-            <Link to="resume">Resume</Link>
-          </h2>
-          <div className="link-container">
+          <h2>My Works</h2>
+          {/* <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
               </h4>
             ))}
-          </div>
+          </div> */}
         </div>
       </header>
+      
       {Object.entries(sections).map(([name, Section]) => (
         <Section key={name} />
       ))}

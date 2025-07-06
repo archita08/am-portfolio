@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
+import myPic from '../../pages/images/me.jpeg';
+import resumePdf from '../../Archita-Malviya-Resume.pdf';
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
@@ -9,7 +11,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={ `https://i.pinimg.com/736x/72/b5/dc/72b5dcf7d3451a5a629b684ecdc65ec8.jpg`} alt="" />
+        <img src={myPic} alt="" />
       </Link>
       <header>
         <h2>Archita Malviya</h2>
@@ -34,9 +36,9 @@ const SideBar = () => (
       </p>
       <ul className="actions">
         <li>
-          <Link to="/resume" className="button">
+          <a href={resumePdf} target='_blank' className="button">
             My Resume
-          </Link>
+          </a>
         </li>
       </ul>
     </section>
@@ -44,7 +46,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Archita Malviya <Link to="/">mldangelo.com</Link>.
+        &copy; Copyright 2025-2026 Archita Malviya. All Rights Reserved.
       </p>
     </section>
   </section>

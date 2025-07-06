@@ -6,9 +6,9 @@ import Job from './Experience/Job';
 const Experience = ({ data }) => (
   <div className="experience">
     <div className="link-to" id="experience" />
-    <div className="title">
+    {/* <div className="title">
       <h3>Experience</h3>
-    </div>
+    </div> */}
     {data.map((job) => (
       <Job data={job} key={`${job.name}-${job.position}`} />
     ))}
@@ -23,7 +23,7 @@ Experience.propTypes = {
       url: PropTypes.string,
       startDate: PropTypes.string,
       endDate: PropTypes.string,
-      highlights: PropTypes.arrayOf(PropTypes.string),
+      highlights: PropTypes.string,
       summary: PropTypes.string,
     }),
   ),

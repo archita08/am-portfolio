@@ -9,41 +9,21 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 // to add other icons.
 
 const data = [
-  // {
-  //   link: 'https://github.com/mldangelo',
-  //   label: 'Github',
-  //   icon: faGithub,
-  // },
-  // {
-  //   link: 'https://facebook.com/d',
-  //   label: 'Facebook',
-  //   icon: faFacebookF,
-  // },
   {
     link: 'https://www.instagram.com/dangelosaurus/',
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/in/Architaldangelo',
+    link: 'https://www.linkedin.com/in/archita-m-936388229',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
-  // {
-  //   link: 'https://angel.co/Archita-d-angelo',
-  //   label: 'Angel List',
-  //   icon: faAngellist,
-  // },
   {
     link: 'https://twitter.com/dangelosaurus',
     label: 'Twitter',
     icon: faTwitter,
   },
-  // {
-  //   link: 'mailto:Archita.l.dangelo@gmail.com',
-  //   label: 'Email',
-  //   icon: faEnvelope,
-  // },
 ];
 
 export default data;

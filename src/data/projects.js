@@ -1,11 +1,11 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Chisel – AI-Powered Product Management Software',
+    title: 'Chisel',
     subtitle: '2015 BVP Hackathon',
-    designation: 'Head of Content and Marketing',
+    designation: 'Head of Content & Marketing Manager',
     date: '2015-11-20',
-    desc: 'Authored 200+ blogs, driving organic traffic and establishing thought leadership.',
+    desc: 'Chisel is the primary app for agile product management and product managers. This efficient software offers three main pillars: Roadmap management, Team alignment, and User research.',
   },
   {
     title: 'CirclePe – Tenant Membership Platform',
