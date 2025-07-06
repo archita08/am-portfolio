@@ -53,7 +53,7 @@ const Stats = () => {
           </ul>
           <h3><span>2022 &ndash; 2023</span></h3>
           <ul>
-            <li><span>Published &ldquo;</span><strong>AI and Future PM</strong><span>&rdquo; eBook</span></li>
+            <li><span>Published &ldquo;</span><strong>AI and Future PM</strong><span>&rdquo; <a style={{cursor: 'pointer'}} href='https://chisellabs.com/pdfs/chisel-ai-e-book.pdf' target={'_blank'}><strong>eBook</strong></a></span></li>
             <li><span>Improved free-trial conversion by </span><strong>20%</strong></li>
             <li><span>Scaled YouTube </span><strong>views to 10K+</strong></li>
             <li><span>Optimized Core Web Vitals scores</span></li>

@@ -30,7 +30,7 @@ const work = [
           <span>Built and executed a comprehensive&nbsp;</span><strong><span>SEO and backlink strategy</span></strong><span>, resulting in&nbsp;</span><strong><span>400+ high-quality backlinks</span></strong><span>, including from&nbsp;</span><strong><span>Canva and HubSpot</span></strong><span>, and significant gains in search visibility and authority.</span>
         </li>
         <li>
-          <span>Authored and led content production for over&nbsp;</span><strong><span>400+ long-form articles and glossary pages</span></strong><span>,&nbsp;</span><strong><span>300+ infographics</span></strong><span>, and an&nbsp;</span><strong><span>AI-focused eBook</span></strong><span>&nbsp;titled&nbsp;</span><em><span>&ldquo;AI and the Future of Product Management&rdquo;</span></em><span>, which attracted&nbsp;</span><strong><span>1,000s of reads</span></strong><span>&nbsp;and drove&nbsp;</span><strong><span>80+ product signups</span></strong><span>.</span>
+          <span>Authored and led content production for over&nbsp;</span><strong><span>400+ long-form articles and glossary pages</span></strong><span>,&nbsp;</span><strong><span>300+ infographics</span></strong><span>, and an&nbsp;</span><strong><span>AI-focused <a style={{cursor: 'pointer'}} href='https://chisellabs.com/pdfs/chisel-ai-e-book.pdf' target={'_blank'}><strong>eBook</strong></a></span></strong><span>&nbsp;titled&nbsp;</span><em><span>&ldquo;AI and the Future of Product Management&rdquo;</span></em><span>, which attracted&nbsp;</span><strong><span>1,000s of reads</span></strong><span>&nbsp;and drove&nbsp;</span><strong><span>80+ product signups</span></strong><span>.</span>
         </li>
         <li>
           <span>Created and managed all visual and written content, including&nbsp;</span><strong><span>UX content, LinkedIn creatives, YouTube videos, infographics</span></strong><span>, and&nbsp;</span><strong><span>launch campaign assets</span></strong><span>, ensuring high engagement across channels.</span>
@@ -39,7 +39,7 @@ const work = [
           <span>Launched and managed multi-channel campaigns (including&nbsp;</span><strong><span>paid ads</span></strong><span>) for product updates and feature rollouts, increasing user acquisition and engagement.</span>
         </li>
         <li>
-          <span>Led and executed&nbsp;</span><strong><span>partnership-driven content marketing</span></strong><span>&nbsp;strategies with organizations like&nbsp;</span><strong><span>Product School, Product Collective, The Product Folks, QuestionPro</span></strong><span>, and&nbsp;</span><strong><span>Trimeta</span></strong><span>, resulting in&nbsp;</span><strong><span>50,000+ YouTube views</span></strong><span>&nbsp;and significantly expanded brand reach.</span>
+          <span>Led and executed&nbsp;</span><strong><span>partnership-driven content marketing</span></strong><span>&nbsp;strategies with organizations like&nbsp;</span><strong><span>Product School, Product Collective, The Product Folks, QuestionPro</span></strong><span>, and&nbsp;</span><strong><span>Trimeta</span></strong><span>, resulting in&nbsp;</span><strong><span>10,000+ YouTube views</span></strong><span>&nbsp;and significantly expanded brand reach.</span>
         </li>
         <li>
           <span>Produced&nbsp;</span><strong><span>100+ blogs for QuestionPro and Trimeta</span></strong><span>, growing their website traffic from&nbsp;</span><strong><span>12K to 80K monthly visitors</span></strong><span>&nbsp;through targeted SEO and content optimization.</span>

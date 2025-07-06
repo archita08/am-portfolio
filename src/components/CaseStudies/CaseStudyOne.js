@@ -22,7 +22,7 @@ const CaseStudyOne = ({
         <li><span>Conducted in‑depth </span><strong>SEO audit</strong><span> &amp; keyword research to map </span><strong>200+ target terms</strong></li>
         <li><span>Built a content roadmap: </span><strong>400+ long‑form articles</strong><span> and glossary pages, </span><strong>300+ infographics</strong></li>
         <li><span>Led backlink outreach to industry authorities (secured links from Canva, HubSpot, Product School)</span></li>
-        <li><span>Authored &ldquo;</span><strong>AI and the Future of Product Management</strong><span>&rdquo; eBook, driving </span><strong>80+ signups</strong></li>
+        <li><span>Authored &ldquo;</span><strong>AI and the Future of Product Management</strong><span>&rdquo; <a style={{cursor: 'pointer'}} href='https://chisellabs.com/pdfs/chisel-ai-e-book.pdf' target={'_blank'}><strong>eBook</strong></a>, driving </span><strong>80+ signups</strong></li>
         <li><span>Deployed multi‑channel social campaigns on LinkedIn, Twitter, YouTube, Quora, and G2 markets</span></li>
       </ul>
       <div><strong>Results</strong></div>
@@ -30,13 +30,13 @@ const CaseStudyOne = ({
         <li><strong>+100K</strong><span> monthly organic visits</span></li>
         <li><strong>400+</strong><span> high‑quality backlinks (Domain Authority 30&ndash;80)</span></li>
         <li><strong>500K+</strong><span> LinkedIn impressions, </span><strong>5,500+</strong><span> new followers</span></li>
-        <li><strong>80+</strong><span> product signups directly attributed to eBook download</span></li>
+        <li><strong>80+</strong><span> product signups directly attributed to <a style={{cursor: 'pointer'}} href='https://chisellabs.com/pdfs/chisel-ai-e-book.pdf' target={'_blank'}><strong>eBook</strong></a> download</span></li>
         <li><strong>10+</strong><span> qualified sales meetings/mo via organic social &amp; email funnels</span></li>
       </ul>
       <div><strong>Key Takeaways</strong></div>
       <ul>
         <li><span>A systematic and scalable content pipeline, combined with a relentless focus on SEO, can build traffic from scratch.</span></li>
-        <li><span>High-value lead magnets (</span><strong>eBooks</strong><span>) paired with targeted outreach can significantly improve conversion rates.s</span></li>
+        <li><span>High-value lead magnets (</span><strong><a style={{cursor: 'pointer'}} href='https://chisellabs.com/pdfs/chisel-ai-e-book.pdf' target={'_blank'}><strong>eBook</strong></a></strong><span>) paired with targeted outreach can significantly improve conversion rates.s</span></li>
         <li><span>Cross‑functional alignment (Product, Sales, Design) is essential for cohesive brand messaging.</span></li>
       </ul>
       <h2><strong>Case Study: Partnership Content for QuestionPro &amp; Trimeta</strong></h2>
