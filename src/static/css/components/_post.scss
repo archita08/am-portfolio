@@ -15,7 +15,7 @@
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 
-  > header {
+  >header {
     @include vendor("display", "flex");
     border-bottom: solid 1px _palette(border);
     left: (_size(section-spacing) * -1);
@@ -26,8 +26,7 @@
     .title {
       @include vendor("flex-grow", "1");
       -ms-flex: 1;
-      padding: (_size(section-spacing) * 1.25) _size(section-spacing)
-        (_size(section-spacing) * 1.1) _size(section-spacing);
+      padding: (_size(section-spacing) * 1.25) _size(section-spacing) (_size(section-spacing) * 1.1) _size(section-spacing);
 
       h2 {
         font-weight: _font(weight-heading-extrabold);
@@ -46,7 +45,7 @@
       text-align: right;
       width: 17em;
 
-      > * {
+      >* {
         margin: 0 0 (_size(element-margin) * 0.5) 0;
       }
 
@@ -57,7 +56,7 @@
       .published {
         color: _palette(fg-bold);
         display: block;
-        font-family: _font(family-heading);
+        font-family: "Autour One", system-ui;
         font-size: 0.7em;
         font-weight: _font(weight-heading-bold);
         letter-spacing: _font(kerning-heading);
@@ -68,12 +67,11 @@
     }
   }
 
-  > a.image.featured {
+  >a.image.featured {
     overflow: hidden;
 
     img {
-      @include vendor(
-        "transition",
+      @include vendor("transition",
         "transform #{_duration(transition)} ease-out"
       );
     }
@@ -85,7 +83,7 @@
     }
   }
 
-  > footer {
+  >footer {
     @include vendor("display", "flex");
     @include vendor("align-items", "center");
 
@@ -101,7 +99,7 @@
       li {
         border-left: solid 1px _palette(border);
         display: inline-block;
-        font-family: _font(family-heading);
+        font-family: "Autour One", system-ui;
         font-size: 0.6em;
         font-weight: _font(weight-heading);
         letter-spacing: _font(kerning-heading);
@@ -134,13 +132,11 @@
     left: _size(section-spacing) * -1;
     width: calc(100% + (#{_size(section-spacing)} * 2));
 
-    > header {
+    >header {
       @include vendor("flex-direction", "column");
-      @include padding(
-        _size(section-spacing) * 1.25,
+      @include padding(_size(section-spacing) * 1.25,
         _size(section-spacing),
-        (0, 0, -0.5em, 0)
-      );
+        (0, 0, -0.5em, 0));
       border-left: 0;
 
       .title {
@@ -161,7 +157,7 @@
         text-align: left;
         width: 100%;
 
-        > * {
+        >* {
           border-left: solid 1px _palette(border);
           margin-left: 2em;
           padding-left: 2em;
@@ -195,23 +191,18 @@
   }
 
   @include breakpoint(small) {
-    @include padding(
-      _size(section-spacing-small),
-      _size(section-spacing-small)
-    );
+    @include padding(_size(section-spacing-small),
+      _size(section-spacing-small));
     left: _size(section-spacing-small) * -1;
     margin: 0 0 _size(element-margin) 0;
     width: calc(100% + (#{_size(section-spacing-small)} * 2));
 
-    > header {
-      @include padding(
-        _size(section-spacing-small) * 2,
+    >header {
+      @include padding(_size(section-spacing-small) * 2,
         _size(section-spacing-small),
-        (0, 0, -0.5em, 0)
-      );
+        (0, 0, -0.5em, 0));
       left: (_size(section-spacing-small) * -1);
-      margin: (_size(section-spacing-small) * -1) 0 _size(section-spacing-small)
-        0;
+      margin: (_size(section-spacing-small) * -1) 0 _size(section-spacing-small) 0;
       width: calc(100% + #{_size(section-spacing-small) * 2});
 
       .title {
@@ -223,12 +214,12 @@
   }
 
   @include breakpoint(xsmall) {
-    > header {
+    >header {
       .meta {
         @include vendor("align-items", "center");
         @include vendor("flex-direction", "column");
 
-        > * {
+        >* {
           border-left: 0;
           margin: (_size(element-margin) * 0.5) 0 0 0;
           padding-left: 0;
@@ -242,13 +233,13 @@
       }
     }
 
-    > .image.featured {
+    >.image.featured {
       margin-left: _size(section-spacing-small) * -1;
       margin-top: calc(#{_size(section-spacing-small) * -1} - 1px);
       width: calc(100% + #{_size(section-spacing-small) * 2});
     }
 
-    > footer {
+    >footer {
       @include vendor("align-items", "stretch");
       @include vendor("flex-direction", "column-reverse");
 

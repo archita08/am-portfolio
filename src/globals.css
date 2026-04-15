@@ -26,18 +26,15 @@
     /* Fixed header height — content must clear this + gap (see Main layout) */
     --site-header-h: 4rem;
     --site-content-gap: 1.25rem;
-    --site-sticky-top: calc(
-      env(safe-area-inset-top, 0px) + var(--site-header-h) + var(--site-content-gap)
-    );
+    --site-sticky-top: calc(env(safe-area-inset-top, 0px) + var(--site-header-h) + var(--site-content-gap));
   }
 
   html {
-    scroll-padding-top: calc(
-      env(safe-area-inset-top, 0px) + var(--site-header-h) + var(--site-content-gap)
-    );
+    scroll-padding-top: calc(env(safe-area-inset-top, 0px) + var(--site-header-h) + var(--site-content-gap));
   }
 
   @media (prefers-reduced-motion: reduce) {
+
     *,
     *::before,
     *::after {
@@ -55,6 +52,7 @@
 
   body {
     @apply min-h-screen overflow-x-hidden bg-muted font-sans text-base font-normal text-foreground antialiased;
+    font-family: "Autour One", system-ui;
   }
 }
 
@@ -69,7 +67,7 @@
       0 1px 3px 0 rgb(15 23 42 / 0.06);
   }
 
-  #site-root article.post > header {
+  #site-root article.post>header {
     border-bottom-color: hsl(var(--border) / 0.75);
   }
 
@@ -105,7 +103,7 @@
 
   .page-card-title a {
     @apply text-inherit no-underline transition-colors hover:text-primary;
-    font-family: inherit;
+    font-family: "Autour One", system-ui;
     font-weight: inherit;
     font-size: inherit;
     line-height: inherit;
