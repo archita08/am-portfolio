@@ -22,7 +22,7 @@
     --ring: 222 59% 45%;
     --radius: 0.75rem;
     --font-sans: "Inter", system-ui, -apple-system, sans-serif;
-    --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+    --font-display: "Autour One", system-ui;
     /* Fixed header height — content must clear this + gap (see Main layout) */
     --site-header-h: 4rem;
     --site-content-gap: 1.25rem;
@@ -30,7 +30,8 @@
   }
 
   html {
-    font-size: 87.5%; /* 14px base instead of 16px — reduces all text by ~2px */
+    font-size: 87.5%;
+    /* 14px base instead of 16px — reduces all text by ~2px */
     scroll-padding-top: calc(env(safe-area-inset-top, 0px) + var(--site-header-h) + var(--site-content-gap));
   }
 
