@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aligned with src/static/css/libs/_vars.scss — white, lavender alt, blue accent */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 1% 23%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 1% 23%;
+    --muted: 258 73% 95%;
+    --muted-foreground: 0 0% 39%;
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --primary: 222 59% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 258 45% 96%;
+    --secondary-foreground: 222 40% 28%;
+    --accent: 258 73% 95%;
+    --accent-foreground: 222 59% 38%;
+    --ring: 222 59% 45%;
+    --radius: 0.75rem;
+    --font-sans: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif;
+    --font-display: "Raleway", var(--font-sans);
+    /* Fixed header height — content must clear this + gap (see Main layout) */
+    --site-header-h: 4rem;
+    --site-content-gap: 1.25rem;
+    --site-sticky-top: calc(
+      env(safe-area-inset-top, 0px) + var(--site-header-h) + var(--site-content-gap)
+    );
+  }
+
+  html {
+    scroll-padding-top: calc(
+      env(safe-area-inset-top, 0px) + var(--site-header-h) + var(--site-content-gap)
+    );
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply min-h-screen overflow-x-hidden bg-muted font-sans text-base font-normal text-foreground antialiased;
+  }
+}
+
+/* Shell + legacy `.post` articles — tokens align with _vars.scss */
+@layer components {
+  #site-root article.post {
+    border-radius: var(--radius);
+    border: 1px solid hsl(var(--border) / 0.85);
+    background-color: hsl(var(--card));
+    box-shadow:
+      0 1px 2px 0 rgb(15 23 42 / 0.04),
+      0 1px 3px 0 rgb(15 23 42 / 0.06);
+  }
+
+  #site-root article.post > header {
+    border-bottom-color: hsl(var(--border) / 0.75);
+  }
+
+  #site-root article.post .title h2 a {
+    @apply text-foreground transition-colors hover:text-primary;
+  }
+
+  ul.icons {
+    @apply flex flex-wrap justify-center gap-3;
+  }
+
+  ul.icons li a {
+    @apply inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-border/80 bg-background text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary;
+  }
+
+  /* Main content cards — consistent type scale & horizontal rhythm */
+  .page-card-header {
+    @apply flex flex-col space-y-2 border-b border-border/70 px-6 py-5 sm:px-8;
+  }
+
+  .page-card-body {
+    @apply space-y-6 px-6 py-6 text-base leading-relaxed text-muted-foreground sm:px-8;
+  }
+
+  .page-card-body-tight {
+    @apply space-y-5 px-6 pb-6 pt-5 text-base leading-relaxed text-muted-foreground sm:px-8;
+  }
+
+  /* Primary page headings — match Index (`About me`): Raleway, semibold, sentence case */
+  .page-card-title {
+    @apply font-display text-xl font-semibold normal-case tracking-tight text-foreground sm:text-2xl;
+  }
+
+  .sidebar-title {
+    @apply font-display text-lg font-semibold normal-case tracking-tight text-foreground sm:text-xl;
+  }
+
+  /* Body copy: muted + semibold emphasis like Index paragraphs */
+  .page-body-text {
+    @apply text-base font-normal leading-relaxed text-muted-foreground;
+  }
+
+  .page-body-text strong {
+    @apply font-semibold text-foreground;
+  }
+
+  .page-card-subtitle {
+    @apply text-sm leading-relaxed text-muted-foreground;
+  }
+
+  .page-lead {
+    @apply font-display text-lg font-semibold leading-snug text-foreground;
+  }
+
+  /* Stats timeline (components/Stats/Site.js) */
+  .stats-timeline {
+    @apply space-y-8 text-base leading-relaxed text-muted-foreground;
+  }
+
+  .stats-timeline h3 {
+    @apply mb-3 font-display text-xs font-semibold uppercase tracking-[0.18em] text-foreground;
+  }
+
+  .stats-timeline h3 span {
+    @apply text-foreground;
+  }
+
+  .stats-timeline ul {
+    @apply ml-5 list-disc space-y-2 pl-1 marker:text-primary/50;
+  }
+
+  .stats-timeline li {
+    @apply pl-0.5;
+  }
+
+  .stats-timeline strong {
+    @apply font-semibold text-foreground;
+  }
+
+  .stats-timeline a {
+    @apply cursor-pointer text-primary underline-offset-2 transition-colors hover:underline;
+  }
+}
+
+/* Mobile menu: custom drawer in Hamburger.js (react-burger-menu removed) */
