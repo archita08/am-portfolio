@@ -48,7 +48,7 @@ const SideBar = () => (
     <Separator />
     <CardContent className="page-card-body-tight page-body-text">
       <div>
-        <h2 className="mb-3 font-display text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+        <h2 className="page-section-heading text-muted-foreground">
           About
         </h2>
         <p className="page-body-text">

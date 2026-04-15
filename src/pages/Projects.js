@@ -77,7 +77,7 @@ const Projects = () => (
               <p className="text-base font-medium text-foreground">{block.title}</p>
               <p className="text-sm text-muted-foreground">{block.dates}</p>
             </div>
-            <ul className="ml-5 list-disc space-y-2 pl-1 text-base font-normal leading-relaxed text-muted-foreground marker:text-primary/50 [&_strong]:font-semibold [&_strong]:text-foreground">
+            <ul className="page-list">
               {block.bullets.map((item) => (
                 <li key={item} className="pl-0.5">
                   {item}

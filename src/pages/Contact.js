@@ -12,6 +12,7 @@ import {
   CardHeader,
   CardTitle,
 } from 'components/ui/card';
+import { Separator } from 'components/ui/separator';
 
 const Contact = () => (
   <Main
@@ -35,8 +36,9 @@ const Contact = () => (
             hear about your goals and explore how we can work together.
           </p>
         </div>
+        <Separator className="opacity-60" />
         <div>
-          <h3 className="mb-4 font-display text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+          <h3 className="page-section-heading">
             Details
           </h3>
           <ul className="space-y-3">
@@ -91,6 +93,7 @@ const Contact = () => (
             </li>
           </ul>
         </div>
+        <Separator className="opacity-60" />
         <ContactIcons />
       </CardContent>
     </Card>

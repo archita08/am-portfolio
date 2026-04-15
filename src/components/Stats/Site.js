@@ -1,4 +1,5 @@
 import React from 'react';
+import { Separator } from 'components/ui/separator';
 
 const Site = () => (
   <div className="stats-timeline">
@@ -19,6 +20,7 @@ const Site = () => (
         <span>Optimized product listing marketplace SEO</span>
       </li>
     </ul>
+    <Separator className="opacity-60" />
     <h3>
       <span>2024 &ndash; 2025</span>
     </h3>
@@ -38,6 +40,7 @@ const Site = () => (
         <span>Launched real-estate blog series</span>
       </li>
     </ul>
+    <Separator className="opacity-60" />
     <h3>
       <span>2023 &ndash; 2024</span>
     </h3>
@@ -58,6 +61,7 @@ const Site = () => (
         <span>Managed Paytm influencer video campaigns</span>
       </li>
     </ul>
+    <Separator className="opacity-60" />
     <h3>
       <span>2022 &ndash; 2023</span>
     </h3>
@@ -91,6 +95,7 @@ const Site = () => (
         <span>Streamlined Notion editorial workflows</span>
       </li>
     </ul>
+    <Separator className="opacity-60" />
     <h3>
       <span>2021 &ndash; 2022</span>
     </h3>
@@ -115,6 +120,7 @@ const Site = () => (
         <span>Ran multi-channel paid-ad campaigns</span>
       </li>
     </ul>
+    <Separator className="opacity-60" />
     <h3>
       <span>2020 &ndash; 2021</span>
     </h3>

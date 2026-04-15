@@ -1,4 +1,5 @@
 import React from 'react';
+import { Separator } from 'components/ui/separator';
 
 const Job = () => (
   <article className="jobs-container space-y-10 page-body-text">
@@ -15,7 +16,7 @@ const Job = () => (
       <div className="text-left text-base leading-relaxed">
         <div><strong><span>Chisel is the primary app for agile product management and product managers. This efficient software offers three main pillars: Roadmap management, Team alignment, and User research.</span></strong></div>
       </div>
-      <ul className="ml-5 list-disc space-y-2 pl-1 text-left text-base leading-relaxed marker:text-primary/35">
+      <ul className="page-list text-left">
         <li><span>Founding membe</span><span>r leading the entire content and marketing function from&nbsp;</span><strong><span>0 to scale</span></strong><span>, increasing organic website traffic from&nbsp;</span><strong><span>0 to 100,000+ monthly visitors</span></strong><span>&nbsp;and growing LinkedIn followers from&nbsp;</span><strong><span>0 to 5,500+ organically, wi</span></strong><strong><span>th 500,000+ impressions</span></strong><span>.</span></li>
         <li><span>D</span><span>efined and led brand messaging and positioning across all channels&mdash;including&nbsp;</span><strong><span>website, LinkedIn, YouTube, Twitter, Quora, Atlassian, G2, Azure Marketplace,</span></strong><span>&nbsp;and other marketplaces, ensuring consistency and alignment with product and audience needs.</span></li>
         <li><span>Built and&nbsp;</span><span>executed a comprehensive SEO and backlink strategy, resulting in&nbsp;</span><strong><span>400+ high-quality backlinks,</span></strong><span>&nbsp;including from Canva and HubSpot, and significant gains in search visibility and authority.</span></li>
@@ -30,6 +31,7 @@ const Job = () => (
         <li><span>Oversaw and grew Chisel&rsquo;s digital footprint across platforms, including&nbsp;</span><strong><span>LinkedIn, YouTube, Twitter, Quora, and WordPress</span></strong><span>, contributing directly to growth, engagement, and product signups.</span></li>
       </ul>
     </div>
+    <Separator className="opacity-60" />
     <div>
       <div className="page-card-title text-left">
         <div><strong><span>Addtitans Pvt. Ltd.&nbsp;</span></strong></div>
@@ -40,7 +42,7 @@ const Job = () => (
       <div className="text-left text-base leading-relaxed">
         <div>Jan 2024 - Jan 2025</div>
       </div>
-      <ul className="ml-5 list-disc space-y-2 pl-1 text-left text-base leading-relaxed marker:text-primary/35">
+      <ul className="page-list text-left">
         <li><span>Led content marketing for major clients like&nbsp;</span><strong><span>Paytm and NX Wave Credit Card</span></strong><span>, executing influencer campaigns that generated 1M+ video views and boosted brand visibility across YouTube and Instagram.</span></li>
         <li><span>Cr</span><span>eated and managed&nbsp;</span><strong><span>20+ social media content</span></strong><span>&nbsp;calendars, resulting in&nbsp;</span><strong><span>100,000+ organic impressions</span></strong><span>&nbsp;and a&nbsp;</span><strong><span>25% increase in engagement rates</span></strong><span>&nbsp;across LinkedIn, Instagram, and Quora.</span></li>
         <li><span>Developed and delivered&nbsp;</span><strong><span>100+ content assets</span></strong><span>, including blogs, whitepapers, landing pages, and <a className="cursor-pointer text-primary underline-offset-2 hover:underline" href="https://chisellabs.com/pdfs/chisel-ai-e-book.pdf" target="_blank" rel="noopener noreferrer"><strong>eBook</strong></a>, contributing to a&nbsp;</span><strong><span>35% uplift in lead conversions</span></strong><span>&nbsp;for client campaigns.</span></li>
@@ -48,6 +50,7 @@ const Job = () => (
         <li><span>Produced influencer content (scripts, captions, creative briefs) for campaigns with top-tier creators like&nbsp;</span><strong><span>Abhi &amp; Niyu and Bekifaayati</span></strong><span>, helping drive CTR improvements of up to&nbsp;</span><strong><span>40% on social content.</span></strong></li>
         <li><span>Collaborated with design and sales teams to ensure&nbsp;</span><strong><span>brand-aligned messaging</span></strong><span>&nbsp;across digital campaigns, improving consistency and increasing content effectiveness across touchpoints.</span></li>
       </ul>
+      <Separator className="opacity-60 my-8" />
       <div className="page-card-title text-left">
         <div><strong><span>Impactrix Ad Agency</span></strong></div>
       </div>
@@ -57,13 +60,14 @@ const Job = () => (
       <div className="text-left text-base leading-relaxed">
         <div>Jan 2024 - Apr 2024</div>
       </div>
-      <ul className="ml-5 list-disc space-y-2 pl-1 text-left text-base leading-relaxed marker:text-primary/35">
+      <ul className="page-list text-left">
         <li><span>Developed and executed&nbsp;</span><strong><span>SEO and PPC strategies&nbsp;</span></strong><span>for real estate and healthcare clients, resulting in a&nbsp;</span><strong><span>20&ndash;40% increase&nbsp;</span></strong><span>in lead conversions and&nbsp;</span><strong><span>30%+ growth</span></strong><span>&nbsp;in organic traffic within&nbsp;</span><strong><span>3 months.</span></strong></li>
         <li><span>Wrote and edited&nbsp;</span><strong><span>50+ SEO-optimized blog posts</span></strong><span>&nbsp;tailored to brand voice and business objectives, improving average&nbsp;</span><strong><span>page time and reducing bounce rates by 15&ndash;20%.</span></strong></li>
         <li><span>Created and managed&nbsp;</span><strong><span>5+ monthly social media content</span></strong><span>&nbsp;calendars, driving&nbsp;</span><strong><span>25K+ total impressions</span></strong><span>&nbsp;and enhancing content consistency across platforms like Instagram and LinkedIn.</span></li>
         <li><span>Collaborated on ad creation, including copy and creative direction, contributing to&nbsp;</span><strong><span>CTR increases of up to 35%</span></strong><span>&nbsp;on paid social and search campaigns.</span></li>
         <li><span>Worked cross-functionally with&nbsp;</span><strong><span>design, strategy, and client-facing teams to align messaging, visuals, and campaign goals</span></strong><span>, ensuring integrated delivery across digital touchpoints.</span></li>
       </ul>
+      <Separator className="opacity-60 my-8" />
       <div className="page-card-title text-left">
         <div><strong><span>CirclePe (Freelance)&nbsp;</span></strong></div>
       </div>
@@ -73,12 +77,13 @@ const Job = () => (
       <div className="text-left text-base leading-relaxed">
         <div>March 2023 - May 2023</div>
       </div>
-      <ul className="ml-5 list-disc space-y-2 pl-1 text-left text-base leading-relaxed marker:text-primary/35">
+      <ul className="page-list text-left">
         <li><span>Wrote SEO-optimized&nbsp;</span><strong><span>40+ blog content</span></strong></li>
         <li><span>Led&nbsp;</span><strong><span>SEO strategy</span></strong><span>&nbsp;for website (on-page and off-page)</span></li>
         <li><span>Developed LinkedIn content calendars for founders and brand (</span><strong><span>impressions 15k, with about 300+ post interactions</span></strong><span>)</span></li>
         <li><span>Executed content strategy for&nbsp;</span><strong><span>Quora and Reddit</span></strong></li>
       </ul>
+      <Separator className="opacity-60 my-8" />
       <div className="page-card-title text-left">
         <div><strong><span>Nira Fragrances (Freelance) &nbsp;</span></strong></div>
       </div>
@@ -88,13 +93,14 @@ const Job = () => (
       <div className="text-left text-base leading-relaxed">
         <div>Jan 2024 - Jan 2025</div>
       </div>
-      <ul className="ml-5 list-disc space-y-2 pl-1 text-left text-base leading-relaxed marker:text-primary/35">
+      <ul className="page-list text-left">
         <li><span>Co-created company website and&nbsp;</span><strong><span>oversaw design and content development</span></strong></li>
         <li><span>Built and executed full content and design strategy</span></li>
         <li><span>Wrote&nbsp;</span><strong><span>blog articles</span></strong><span>&nbsp;and created&nbsp;</span><strong><span>social media content</span></strong></li>
         <li><span>Managed&nbsp;</span><strong><span>influencer marketing</span></strong><span>&nbsp;efforts</span></li>
       </ul>
     </div>
+    <Separator className="opacity-60" />
     <div>
       <div className="page-card-title text-left">
         <div><strong><span>Hello Genee (freelance)&nbsp;</span></strong></div>
@@ -105,11 +111,12 @@ const Job = () => (
       <div className="text-left text-base leading-relaxed">
         <div>Jan 2024 - Jan 2025</div>
       </div>
-      <ul className="ml-5 list-disc space-y-2 pl-1 text-left text-base leading-relaxed marker:text-primary/35">
+      <ul className="page-list text-left">
         <li><span>Developed&nbsp;</span><strong><span>blog content&nbsp;</span></strong><span>and&nbsp;</span><strong><span>social media strategy</span></strong></li>
         <li><span>C</span><span>reated ad copies and collaborated on&nbsp;</span><strong><span>graphics</span></strong></li>
         <li><span>Handled&nbsp;</span><strong><span>PPC campaigns</span></strong><span>&nbsp;and managed&nbsp;</span><strong><span>SEO execution</span></strong></li>
       </ul>
+      <Separator className="opacity-60 my-8" />
       <div className="page-card-title text-left">
         <div><strong><span>Health Archiculates&nbsp;</span></strong></div>
       </div>
@@ -119,11 +126,12 @@ const Job = () => (
       <div className="text-left text-base leading-relaxed">
         <div>Dec 2022 - Present</div>
       </div>
-      <ul className="ml-5 list-disc space-y-2 pl-1 text-left text-base leading-relaxed marker:text-primary/35">
+      <ul className="page-list text-left">
         <li><span>Built and managed a&nbsp;</span><strong><span>personal wellness-focused content page</span></strong></li>
         <li><span>Co</span><span>llaborated with skincare brands&nbsp;</span><strong><span>COSIQ and Earth Rhythm</span></strong></li>
         <li><span>C</span><span>reated&nbsp;</span><strong><span>branded social media content</span></strong><span>&nbsp;and campaign assets</span></li>
       </ul>
+      <Separator className="opacity-60 my-8" />
       <div className="page-card-title text-left">
         <div><strong><span>Toprankers &amp; Career Launcher</span></strong></div>
       </div>
@@ -133,7 +141,7 @@ const Job = () => (
       <div className="text-left text-base leading-relaxed">
         <div>Dec 2018 - Aug 2020</div>
       </div>
-      <ul className="ml-5 list-disc space-y-2 pl-1 text-left text-base leading-relaxed marker:text-primary/35">
+      <ul className="page-list text-left">
         <li><span>Designed legal writing curriculum and resources for&nbsp;</span><strong><span>CLAT aspirants</span></strong></li>
         <li><span>Au</span><span>thored&nbsp;</span><strong><span>legal blogs, judgment analysis</span></strong><span>, and Supreme Court judgment summaries</span></li>
         <li><span>Supporte</span><span>d educational&nbsp;</span><strong><span>content strategy for online legal platforms</span></strong></li>

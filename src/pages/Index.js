@@ -9,6 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from 'components/ui/card';
+import { Separator } from 'components/ui/separator';
 
 const Index = () => (
   <Main
@@ -57,6 +58,7 @@ const Index = () => (
           </strong>
           .
         </p>
+        <Separator className="opacity-60" />
         <p>
           Welcome to my portfolio. Explore{' '}
           <Link

@@ -31,7 +31,7 @@ const Main = (props) => (
         {props.children}
       </main>
       {props.fullPage ? null : (
-        <aside className="order-2 w-full shrink-0 py-4 sm:py-5 lg:order-1 lg:w-[min(26rem,100%)] lg:max-w-[26rem] lg:flex-shrink-0 lg:self-start lg:py-6">
+        <aside className="order-2 w-full shrink-0 py-4 sm:py-5 lg:order-1 lg:w-[min(26rem,100%)] lg:max-w-[26rem] lg:flex-shrink-0 lg:self-stretch lg:py-6">
           <div className="animate-fade-in-slow w-full motion-reduce:animate-none lg:sticky lg:top-[var(--site-sticky-top)] lg:pb-[max(0.25rem,env(safe-area-inset-bottom,0px))]">
             <SideBar />
           </div>
