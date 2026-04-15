@@ -68,18 +68,16 @@ const Projects = () => (
           <Link to="/projects">Projects</Link>
         </CardTitle>
       </CardHeader>
-      <CardContent className="page-card-body space-y-10">
+      <CardContent className="page-card-body page-body-text space-y-10">
         {roleBlocks.map((block, i) => (
           <section key={block.company} className="space-y-4">
             {i > 0 ? <Separator className="opacity-60" /> : null}
             <div className="space-y-1">
-              <h3 className="font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
-                {block.company}
-              </h3>
+              <h3 className="page-card-title text-left">{block.company}</h3>
               <p className="text-base font-medium text-foreground">{block.title}</p>
               <p className="text-sm text-muted-foreground">{block.dates}</p>
             </div>
-            <ul className="ml-5 list-disc space-y-2 pl-1 text-base leading-relaxed marker:text-primary/50">
+            <ul className="ml-5 list-disc space-y-2 pl-1 text-base font-normal leading-relaxed text-muted-foreground marker:text-primary/50 [&_strong]:font-semibold [&_strong]:text-foreground">
               {block.bullets.map((item) => (
                 <li key={item} className="pl-0.5">
                   {item}

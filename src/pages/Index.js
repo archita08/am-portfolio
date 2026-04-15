@@ -26,7 +26,7 @@ const Index = () => (
           Marketing &amp; content leadership
         </CardDescription>
       </CardHeader>
-      <CardContent className="page-card-body space-y-6">
+      <CardContent className="page-card-body page-body-text space-y-6">
         <p>
           Hi, I&apos;m Archita. I am a results-driven{' '}
           <strong className="font-semibold text-foreground">

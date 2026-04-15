@@ -22,17 +22,17 @@ const Main = (props) => (
     <Navigation />
     <div
       id="site-root"
-      className="site-shell mx-auto flex min-h-[calc(100vh-var(--site-header-h))] w-full max-w-[90rem] flex-col items-start gap-6 px-3 pb-12 pt-[calc(env(safe-area-inset-top,0px)+var(--site-header-h)+var(--site-content-gap))] sm:px-5 md:gap-8 md:px-8 lg:flex-row lg:gap-10 lg:px-10"
+      className="site-shell mx-auto flex min-h-[calc(100vh-var(--site-header-h))] w-full max-w-[96rem] flex-col items-start gap-6 px-3 pb-12 pt-[calc(env(safe-area-inset-top,0px)+var(--site-header-h)+var(--site-content-gap))] sm:px-5 md:gap-8 md:px-8 lg:flex-row lg:gap-10 lg:px-10 lg:pb-16"
     >
       <main
         id="main"
-        className="animate-fade-in order-1 w-full min-w-0 flex-1 motion-reduce:animate-none lg:order-2"
+        className="animate-fade-in order-1 w-full min-w-0 flex-1 py-4 motion-reduce:animate-none sm:py-5 lg:order-2 lg:py-6"
       >
         {props.children}
       </main>
       {props.fullPage ? null : (
-        <aside className="order-2 w-full shrink-0 py-2 lg:order-1 lg:w-[22rem] lg:max-w-[22rem] lg:self-start lg:py-6">
-          <div className="animate-fade-in-slow w-full motion-reduce:animate-none lg:sticky lg:top-[var(--site-sticky-top)] lg:max-h-[calc(100dvh-var(--site-sticky-top)-1.5rem)] lg:overflow-y-auto lg:overscroll-contain lg:pb-1">
+        <aside className="order-2 w-full shrink-0 py-4 sm:py-5 lg:order-1 lg:w-[min(26rem,100%)] lg:max-w-[26rem] lg:flex-shrink-0 lg:self-start lg:py-6">
+          <div className="animate-fade-in-slow w-full motion-reduce:animate-none lg:sticky lg:top-[var(--site-sticky-top)] lg:pb-[max(0.25rem,env(safe-area-inset-bottom,0px))]">
             <SideBar />
           </div>
         </aside>

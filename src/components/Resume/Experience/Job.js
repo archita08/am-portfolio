@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Job = () => (
-  <article className="jobs-container space-y-10 text-muted-foreground [&_strong]:font-semibold [&_strong]:text-foreground">
+  <article className="jobs-container space-y-10 page-body-text">
     <div>
-      <div className="text-left font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
+      <div className="page-card-title text-left">
         <div><strong><span>Chisel&nbsp;</span></strong></div>
       </div>
       <div className="text-left text-base leading-relaxed">
@@ -31,7 +31,7 @@ const Job = () => (
       </ul>
     </div>
     <div>
-      <div className="text-left font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
+      <div className="page-card-title text-left">
         <div><strong><span>Addtitans Pvt. Ltd.&nbsp;</span></strong></div>
       </div>
       <div className="text-left text-base leading-relaxed">
@@ -48,7 +48,7 @@ const Job = () => (
         <li><span>Produced influencer content (scripts, captions, creative briefs) for campaigns with top-tier creators like&nbsp;</span><strong><span>Abhi &amp; Niyu and Bekifaayati</span></strong><span>, helping drive CTR improvements of up to&nbsp;</span><strong><span>40% on social content.</span></strong></li>
         <li><span>Collaborated with design and sales teams to ensure&nbsp;</span><strong><span>brand-aligned messaging</span></strong><span>&nbsp;across digital campaigns, improving consistency and increasing content effectiveness across touchpoints.</span></li>
       </ul>
-      <div className="text-left font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
+      <div className="page-card-title text-left">
         <div><strong><span>Impactrix Ad Agency</span></strong></div>
       </div>
       <div className="text-left text-base leading-relaxed">
@@ -64,7 +64,7 @@ const Job = () => (
         <li><span>Collaborated on ad creation, including copy and creative direction, contributing to&nbsp;</span><strong><span>CTR increases of up to 35%</span></strong><span>&nbsp;on paid social and search campaigns.</span></li>
         <li><span>Worked cross-functionally with&nbsp;</span><strong><span>design, strategy, and client-facing teams to align messaging, visuals, and campaign goals</span></strong><span>, ensuring integrated delivery across digital touchpoints.</span></li>
       </ul>
-      <div className="text-left font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
+      <div className="page-card-title text-left">
         <div><strong><span>CirclePe (Freelance)&nbsp;</span></strong></div>
       </div>
       <div className="text-left text-base leading-relaxed">
@@ -79,7 +79,7 @@ const Job = () => (
         <li><span>Developed LinkedIn content calendars for founders and brand (</span><strong><span>impressions 15k, with about 300+ post interactions</span></strong><span>)</span></li>
         <li><span>Executed content strategy for&nbsp;</span><strong><span>Quora and Reddit</span></strong></li>
       </ul>
-      <div className="text-left font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
+      <div className="page-card-title text-left">
         <div><strong><span>Nira Fragrances (Freelance) &nbsp;</span></strong></div>
       </div>
       <div className="text-left text-base leading-relaxed">
@@ -96,7 +96,7 @@ const Job = () => (
       </ul>
     </div>
     <div>
-      <div className="text-left font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
+      <div className="page-card-title text-left">
         <div><strong><span>Hello Genee (freelance)&nbsp;</span></strong></div>
       </div>
       <div className="text-left text-base leading-relaxed">
@@ -110,7 +110,7 @@ const Job = () => (
         <li><span>C</span><span>reated ad copies and collaborated on&nbsp;</span><strong><span>graphics</span></strong></li>
         <li><span>Handled&nbsp;</span><strong><span>PPC campaigns</span></strong><span>&nbsp;and managed&nbsp;</span><strong><span>SEO execution</span></strong></li>
       </ul>
-      <div className="text-left font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
+      <div className="page-card-title text-left">
         <div><strong><span>Health Archiculates&nbsp;</span></strong></div>
       </div>
       <div className="text-left text-base leading-relaxed">
@@ -124,7 +124,7 @@ const Job = () => (
         <li><span>Co</span><span>llaborated with skincare brands&nbsp;</span><strong><span>COSIQ and Earth Rhythm</span></strong></li>
         <li><span>C</span><span>reated&nbsp;</span><strong><span>branded social media content</span></strong><span>&nbsp;and campaign assets</span></li>
       </ul>
-      <div className="text-left font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
+      <div className="page-card-title text-left">
         <div><strong><span>Toprankers &amp; Career Launcher</span></strong></div>
       </div>
       <div className="text-left text-base leading-relaxed">

@@ -100,11 +100,20 @@
 
   /* Primary page headings — match Index (`About me`): Raleway, semibold, sentence case */
   .page-card-title {
-    @apply font-display text-xl font-semibold normal-case tracking-tight text-foreground sm:text-2xl;
+    @apply font-display text-xl font-semibold normal-case leading-snug tracking-tight text-foreground sm:text-2xl;
+  }
+
+  .page-card-title a {
+    @apply text-inherit no-underline transition-colors hover:text-primary;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
   }
 
   .sidebar-title {
-    @apply font-display text-lg font-semibold normal-case tracking-tight text-foreground sm:text-xl;
+    @apply font-display text-lg font-semibold normal-case leading-snug tracking-tight text-foreground sm:text-xl;
   }
 
   /* Body copy: muted + semibold emphasis like Index paragraphs */

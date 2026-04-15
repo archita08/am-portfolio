@@ -26,7 +26,7 @@ const Stats = () => (
           Highlights from campaigns, content, and growth work.
         </CardDescription>
       </CardHeader>
-      <CardContent className="page-card-body space-y-8">
+      <CardContent className="page-card-body page-body-text space-y-8">
         <Site />
       </CardContent>
     </Card>

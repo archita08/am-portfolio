@@ -64,7 +64,7 @@ const Skills = ({ skills, tools, categories }) => {
     <div className="skills">
       <div className="link-to" id="skills" />
       <div className="title text-left">
-        <h3 className="mb-6 font-display text-xs font-semibold uppercase tracking-[0.18em] text-foreground">
+        <h3 className="page-card-title mb-6 !text-lg sm:!text-xl">
           Skills &amp; tools
         </h3>
         <div className="skills-tools-list-div grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

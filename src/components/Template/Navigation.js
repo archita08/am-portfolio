@@ -19,12 +19,12 @@ const Navigation = () => {
 
   return (
     <header className="fixed inset-x-0 top-0 z-[10000] h-[var(--site-header-h)] border-b border-border/50 bg-background/92 shadow-sm backdrop-blur-md supports-[backdrop-filter]:bg-background/85">
-      <div className="mx-auto flex h-full max-w-[90rem] items-center justify-between gap-3 px-3 sm:gap-4 sm:px-5 md:px-8 lg:px-10">
+      <div className="mx-auto flex h-full max-w-[96rem] items-center justify-between gap-3 px-3 sm:gap-4 sm:px-5 md:px-8 lg:px-10">
         <h1 className="index-link m-0 flex min-h-0 min-w-0 items-center p-0 font-display text-[11px] font-bold uppercase leading-none tracking-[0.12em] text-foreground sm:text-xs md:text-sm">
           {indexRoute && (
             <Link
               to={indexRoute.path}
-              className="line-clamp-2 max-w-[10rem] text-foreground transition-colors hover:text-primary sm:max-w-[14rem] md:max-w-none"
+              className="line-clamp-2 max-w-[10rem] text-foreground transition-colors hover:text-primary sm:max-w-[14rem] md:max-w-none md:line-clamp-none"
             >
               {indexRoute.label}
             </Link>

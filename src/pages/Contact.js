@@ -27,7 +27,7 @@ const Contact = () => (
           Let&apos;s talk about your next content or growth initiative.
         </CardDescription>
       </CardHeader>
-      <CardContent className="page-card-body space-y-8">
+      <CardContent className="page-card-body page-body-text space-y-8">
         <div className="space-y-3">
           <p className="page-lead">Let&apos;s build your next success story</p>
           <p>
